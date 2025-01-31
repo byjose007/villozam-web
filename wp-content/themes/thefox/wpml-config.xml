@@ -1,0 +1,154 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="translate">quote</custom-field>
+        <custom-field action="translate">quote_author</custom-field>
+    </custom-fields>
+    <taxonomies>
+        <taxonomy translate="1">catportfolio</taxonomy>
+        <taxonomy translate="1">tagportfolio</taxonomy>
+        <taxonomy translate="1">groups</taxonomy>
+        <taxonomy translate="1">staffposition</taxonomy>
+    </taxonomies>
+    <admin-texts>
+        <key name="rd_data">
+            <key name="rd_topbar_phone_text" />
+            <key name="rd_topbar_mail_text" />
+			<key name="rd_topbar_news_text" />
+			<key name="rd_footer_message" />
+			<key name="rd_bc_portlink" />
+			<key name="rd_bc_porttext" />
+			<key name="rd_bc_stafflink" />
+			<key name="rd_bc_stafftext" />
+			<key name="rd_bc_shoplink" />
+			<key name="rd_bc_shoptext" />
+			<key name="rd_error_title" />
+			<key name="rd_error_text" />
+			<key name="rd_error_subtext" />
+			<key name="rd_csp_text" />
+			<key name="rd_csp_days" />
+			<key name="rd_csp_hours" />
+			<key name="rd_csp_minutes" />
+			<key name="rd_csp_seconds" />
+			<key name="rd_csp_mail_placeholder" />
+        </key>
+    </admin-texts>
+    <shortcodes>
+        <shortcode>
+            <tag>alert</tag>
+            <attributes>
+                <attribute>content</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>blockquote</tag>
+            <attributes>
+                <attribute>content</attribute>
+                <attribute>author_name</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>button</tag>
+            <attributes>
+                <attribute>content</attribute>
+                <attribute>url</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>rd_code_box</tag>
+            <attributes>
+                <attribute>content</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>text_sc</tag>
+            <attributes>
+                <attribute>content</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>double_button</tag>
+            <attributes>
+                <attribute>f_b_text</attribute>
+                <attribute>f_url</attribute>
+                <attribute>s_b_text</attribute>
+                <attribute>s_url</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>dropcap</tag>
+            <attributes>
+                <attribute>content</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>iconbox</tag>
+            <attributes>
+                <attribute>content</attribute>
+                <attribute>title</attribute>
+                <attribute>link</attribute>
+                <attribute>button_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>iconbox2</tag>
+            <attributes>
+                <attribute>content</attribute>
+                <attribute>title</attribute>
+                <attribute>subtitle</attribute>
+                <attribute>link</attribute>
+                <attribute>button_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>rd_list</tag>
+            <attributes>
+                <attribute>content</attribute>
+                <attribute>title</attribute>
+                <attribute>link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>profile_testimonial_sc</tag>
+            <attributes>
+                <attribute>quote</attribute>
+                <attribute>author</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>progress_bar</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>rd_cta</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>button_link</attribute>
+                <attribute>content</attribute>
+                <attribute>button_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>lt</tag>
+            <attributes>
+                <attribute>sub_text</attribute>
+                <attribute>content</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>testimonial_sc</tag>
+            <attributes>
+                <attribute>author</attribute>
+                <attribute>a_info</attribute>
+                <attribute>content</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>text_divider</tag>
+            <attributes>
+                <attribute>content</attribute>
+            </attributes>
+        </shortcode>
+    </shortcodes>
+</wpml-config>

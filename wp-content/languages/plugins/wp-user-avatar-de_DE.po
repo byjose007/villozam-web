@@ -1,0 +1,365 @@
+# Translation of Plugins - Paid Membership Plugin, Ecommerce, User Registration Form, Login Form, User Profile &amp; Restrict Content – ProfilePress - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - Paid Membership Plugin, Ecommerce, User Registration Form, Login Form, User Profile &amp; Restrict Content – ProfilePress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-15 17:31:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Paid Membership Plugin, Ecommerce, User Registration Form, Login Form, User Profile &amp; Restrict Content – ProfilePress - Stable (latest release)\n"
+
+#: deprecated/wp-user-avatar/includes/wpua-functions.php:65
+#: deprecated/wp-user-avatar/includes/wpua-functions.php:73
+#: deprecated/wp-user-avatar/includes/wpua-functions.php:78
+#: deprecated/wp-user-avatar/includes/wpua-functions.php:131
+#: src/Classes/ImageUploader.php:49
+#: src/ShortcodeParser/MyAccount/MyAccountTag.php:672
+msgid "Profile Picture"
+msgstr "Profilbild"
+
+#: src/Functions/FuseWPAdminNotice.php:90 src/Functions/PPressBFnote.php:102
+msgid "Dismiss this notice"
+msgstr "Diesen Hinweis ausblenden"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:157
+#: src/Themes/DragDrop/AbstractBuildScratch.php:349
+#: src/Themes/DragDrop/AbstractBuildScratch.php:408
+msgid "Left"
+msgstr "Links"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:158
+#: src/Themes/DragDrop/AbstractBuildScratch.php:350
+#: src/Themes/DragDrop/AbstractBuildScratch.php:410
+msgid "Right"
+msgstr "Rechts"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:167
+#: src/ContentProtection/views/view.access-condition.php:160
+msgid "Custom URL"
+msgstr "Benutzerdefinierte URL"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:172
+msgid "URL"
+msgstr "URL"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:153
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:154
+msgid "wp_user_avatar_align"
+msgstr "wp_user_avatar_align"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:153
+msgid "Alignment"
+msgstr "Ausrichtung"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:156
+#: src/Themes/DragDrop/AbstractBuildScratch.php:409
+msgid "Center"
+msgstr "Zentriert"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:163
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:164
+msgid "wp_user_avatar_link"
+msgstr "wp_user_avatar_link"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:166
+msgid "Image File"
+msgstr "Bilddatei"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:171
+msgid "wp_user_avatar_link_external_section"
+msgstr "wp_user_avatar_link_external_section"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:172
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:173
+msgid "wp_user_avatar_link_external"
+msgstr "wp_user_avatar_link_external"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:177
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:178
+msgid "wp_user_avatar_target"
+msgstr "wp_user_avatar_target"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:178
+msgid "Open link in a new window"
+msgstr "Link in neuem Fenster öffnen"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:182
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:183
+msgid "wp_user_avatar_caption"
+msgstr "wp_user_avatar_caption"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:187
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:197
+msgid "Insert into Post"
+msgstr "In Beitrag einfügen"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:191
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:192
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:193
+msgid "wp_user_avatar_upload"
+msgstr "wp_user_avatar_upload"
+
+#: src/ShortcodeParser/MemberDirectoryTag.php:172
+#: src/ShortcodeParser/MemberDirectoryTag.php:173
+#: src/Themes/DragDrop/AbstractMemberDirectoryTheme.php:264
+#: src/Themes/DragDrop/AbstractMemberDirectoryTheme.php:538
+#: src/Themes/DragDrop/AbstractMemberDirectoryTheme.php:540
+msgid "Search"
+msgstr "Suchen"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:182
+msgid "Caption"
+msgstr "Beschriftung"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:163
+msgid "Link To"
+msgstr "Link zu"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:102
+msgid "Disable Gravatar and use only local avatars"
+msgstr "Gravatar deaktivieren und nur lokale Avatare verwenden"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:136
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:148
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/EditProfile/ShowProfilePicture.php:30
+msgid "Size"
+msgstr "Größe"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-widget.php:56
+#: src/Widgets/Form.php:65 src/Widgets/TabbedWidget.php:473
+#: src/Widgets/UserPanel.php:74
+msgid "Title:"
+msgstr "Titel:"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:81
+msgid "Height"
+msgstr "Höhe"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-widget.php:65
+msgid "Automatically add paragraphs"
+msgstr "Absätze automatisch hinzufügen"
+
+#: src/Admin/SettingsPages/FormList.php:240
+#: src/Admin/SettingsPages/Membership/CouponsPage/CouponWPListTable.php:66
+#: src/Admin/SettingsPages/Membership/CustomersPage/CustomerWPListTable.php:86
+#: src/Admin/SettingsPages/Membership/GroupsPage/GroupWPListTable.php:55
+#: src/Admin/SettingsPages/Membership/OrdersPage/OrderWPListTable.php:108
+#: src/Admin/SettingsPages/Membership/PlansPage/PlanWPListTable.php:65
+#: src/Admin/SettingsPages/Membership/SubscriptionsPage/SubscriptionWPListTable.php:111
+#: src/Admin/SettingsPages/Membership/views/customers/data-metabox.php:84
+#: src/Admin/SettingsPages/Membership/views/orders/order-data-metabox.php:120
+#: src/ContentProtection/WPListTable.php:84
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:79
+#: src/Themes/DragDrop/AbstractBuildScratch.php:83
+#: src/Themes/DragDrop/AbstractBuildScratch.php:224
+#: src/Themes/DragDrop/AbstractBuildScratch.php:492
+msgid "Width"
+msgstr "Breite"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:243
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:82
+#: src/Admin/SettingsPages/EmailSettings/DefaultTemplateCustomizer.php:300
+#: src/ShortcodeParser/MyAccount/edit-profile.tmpl.php:103
+#: src/ShortcodeParser/MyAccount/edit-profile.tmpl.php:122
+#: src/templates/checkout/form-checkout-sidebar.php:97
+msgid "Remove"
+msgstr "Entfernen"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:243
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:209
+msgid "Undo"
+msgstr "Rückgängig"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-shortcode.php:178
+msgid "Profile updated."
+msgstr "Profil aktualisiert."
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-widget.php:13
+msgid "Insert"
+msgstr "Einfügen"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-widget.php:13
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:193
+msgid "[avatar_upload]"
+msgstr "[avatar_upload]"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:76
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:189
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:192
+msgid "Upload"
+msgstr "Hochladen"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:199
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:139
+msgid "Original Size"
+msgstr "Originalgröße"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:203
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:142
+msgid "Thumbnail"
+msgstr "Vorschaubild"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:206
+msgid "Remove Image"
+msgstr "Bild entfernen"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:264
+msgid "Unable to create directory %s. Is its parent directory writable by the server?"
+msgstr "Das Verzeichnis %s konnte nicht erstellt werden. Ist das übergeordnete Verzeichnis auf dem Server beschreibbar?"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:126
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:127
+msgid "wp_user_avatar_user"
+msgstr "wp_user_avatar_user"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:126
+msgid "User Name"
+msgstr "Benutzername"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:136
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:137
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:149
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:183
+msgid "wp_user_avatar_size"
+msgstr "wp_user_avatar_size"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:140
+#: src/Themes/DragDrop/AbstractBuildScratch.php:335
+msgid "Large"
+msgstr "Groß"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:141
+#: src/Themes/DragDrop/AbstractBuildScratch.php:334
+msgid "Medium"
+msgstr "Mittel"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:147
+msgid "wp_user_avatar_size_number_section"
+msgstr "wp_user_avatar_size_number_section"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:148
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:149
+msgid "wp_user_avatar_size_number"
+msgstr "wp_user_avatar_size_number"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:85
+msgid "Crop avatars to exact dimensions"
+msgstr "Avatare auf exakte Größe zuschneiden"
+
+#: deprecated/wp-user-avatar/includes/wpua-functions.php:75
+#: deprecated/wp-user-avatar/includes/wpua-functions.php:81
+msgid "Image"
+msgstr "Bild"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-widget.php:60
+msgid "Description:"
+msgstr "Beschreibung:"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:75
+msgid "Resize avatars on upload"
+msgstr "Avatar-Größe beim Upload ändern"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:124
+msgid "For users without a custom avatar of their own, you can either display a generic logo or a generated one based on their e-mail address."
+msgstr "Für Benutzer ohne individuellen Avatar kann wahlweise ein Standardlogo oder ein auf Basis deren E-Mail-Adressen erzeugter Avatar angezeigt werden."
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:36
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:68
+msgid "%s exceeds the maximum upload size for this site."
+msgstr "%s überschreitet das Upload-Limit für diese Website."
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:143
+#: src/Admin/SettingsPages/Membership/DashboardPage/SettingsPage.php:265
+msgid "Custom"
+msgstr "Individuell"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:260
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:287
+msgid "Memory exceeded. Please try another smaller file."
+msgstr "Speicherkapazität überschritten. Bitte versuche es mit einer kleineren Datei."
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:256
+msgid "This file is not an image. Please try another."
+msgstr "Diese Datei ist kein Bild. Bitte versuche es mit einer anderen."
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:193
+msgid "<code>jpg jpeg png gif</code>"
+msgstr "<code>jpg jpeg png gif</code>"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:193
+msgid "Allowed Files"
+msgstr "Erlaubte Dateien"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:192
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:38
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:70
+msgid "Maximum upload file size: %d%s."
+msgstr "Maximale Dateigröße für Uploads: %d%s."
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-shortcode.php:203
+#: src/Themes/DragDrop/AbstractTheme.php:129
+msgid "Update Profile"
+msgstr "Profil aktualisieren"
+
+#: src/ContentProtection/ContentConditions.php:297
+#: src/ContentProtection/ContentConditions.php:310
+#: src/ContentProtection/ContentConditions.php:322
+#: src/ContentProtection/ContentConditions.php:396
+#: src/ContentProtection/ContentConditions.php:432
+msgid "Select %s"
+msgstr "%s auswählen"
+
+#: src/Admin/SettingsPages/DragDropBuilder/FieldBase.php:89
+#: src/Admin/SettingsPages/DragDropBuilder/FieldBase.php:232
+#: src/Admin/SettingsPages/EmailSettings/EmailSettingsPage.php:98
+#: src/Admin/SettingsPages/ExtensionsSettingsPage.php:153
+#: src/Admin/SettingsPages/GeneralSettings.php:44
+#: src/Admin/SettingsPages/GeneralSettings.php:45
+#: src/Admin/SettingsPages/Membership/PaymentSettings.php:30
+#: src/Classes/Miscellaneous.php:153
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:201
+msgid "Mystery Man"
+msgstr "Mystery Man"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:204
+msgid "Identicon (Generated)"
+msgstr "Identicon (automatisch generiert)"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:205
+msgid "Wavatar (Generated)"
+msgstr "Wavatar (automatisch generiert)"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:206
+msgid "MonsterID (Generated)"
+msgstr "MonsterID (automatisch generiert)"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:207
+msgid "Retro (Generated)"
+msgstr "Retro (automatisch generiert)"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:203
+msgid "Gravatar Logo"
+msgstr "Gravatar-Logo"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:202
+msgid "Blank"
+msgstr "Leer"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:242
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:183
+msgid "Choose Image"
+msgstr "Bild auswählen"
+
+#. Plugin Name of the plugin
+#: wp-user-avatar.php src/Integrations/TutorLMS/Init.php:57
+msgid "ProfilePress"
+msgstr "ProfilePress"
