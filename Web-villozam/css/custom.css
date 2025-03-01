@@ -1,0 +1,17 @@
+.owl-carousel .owl-item {
+    height: 120px;
+    padding: 0 30px;
+  }
+  
+  .owl-carousel .owl-item > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .owl-carousel .owl-item img {
+    max-height: 100px;
+    width: auto;
+    object-fit: contain;
+  }
