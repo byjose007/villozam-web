@@ -1,4 +1,4 @@
-name: Deploy via FTP
+name: Deploy via FTP (Debug)
 
 on:
   push:
@@ -10,20 +10,30 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-
+      
+      - name: Debug Secret Availability
+        run: |
+          if [ -n "${{ secrets.FTP_SERVER }}" ]; then
+            echo "FTP_SERVER secret is available"
+          else
+            echo "FTP_SERVER secret is NOT available"
+          fi
+          if [ -n "${{ secrets.FTP_USERNAME }}" ]; then
+            echo "FTP_USERNAME secret is available"
+          else
+            echo "FTP_USERNAME secret is NOT available"
+          fi
+          if [ -n "${{ secrets.FTP_PASSWORD }}" ]; then
+            echo "FTP_PASSWORD secret is available"
+          else
+            echo "FTP_PASSWORD secret is NOT available"
+          fi
+      
       - name: Deploy to InMotion Hosting
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /public_html/
-          local-dir: ./
-          exclude: |
-            **/.git*
-            **/.git*/**
-            **/node_modules/**
-            README.md
-            .github/**
+          server-dir: "/public_html/"
+          local-dir: "./"
