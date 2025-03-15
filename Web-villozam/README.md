@@ -1,6 +1,6 @@
 # Web-villozam
 
-Sitio web corporativo para Villozam, desarrollado con HTML5, CSS3 y JavaScript.
+Sitio web corporativo para VILLOZAM S.A., desarrollado con HTML5, CSS3 y JavaScript.
 
 ## Estructura del Sitio
 
@@ -27,18 +27,18 @@ El sitio web cuenta con las siguientes secciones principales:
 
 2. Telecomunicaciones
    - Cableado Estructurado
-   - Radio Bases
+   - Radio Bases Celulares
    - Fibra Óptica
    - Centrales Telefónicas IP
 
 3. Automatización
    - Domótica
    - Puertas Automáticas
-   - Sonido Centralizado
+   - Sonido
 
 4. Energía
    - Energía Renovable
-   - Grupos Electrógenos
+   - Grupos Electrógenos ATS
    - Luminarias Solares
 
 5. Tránsito
