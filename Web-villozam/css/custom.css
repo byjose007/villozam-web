@@ -1,37 +1,42 @@
 .owl-carousel .owl-item {
-    height: 120px;
-    padding: 0 30px;
-  }
-  
-  .owl-carousel .owl-item > div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-  }
-  
-  .owl-carousel .owl-item img {
-    max-height: 100px;
-    width: auto;
-    object-fit: contain;
-  }
+  height: 120px;
+  padding: 0 30px;
+}
 
+.owl-carousel .owl-item > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
 
+.owl-carousel .owl-item img {
+  max-height: 100px;
+  width: auto;
+  object-fit: contain;
+}
 
-  @keyframes blurIn {
-    from {
-      opacity: 0;
-      filter: blur(10px);
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      filter: blur(0);
-      transform: translateY(0);
-    }
+@keyframes blurIn {
+  from {
+    opacity: 0;
+    filter: blur(10px);
+    transform: translateY(20px);
   }
-  
-  .blurIn {
-    opacity: 0; /* Oculta el elemento antes de la animación */
-    animation: blurIn 0.8s ease-out forwards;
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
   }
+}
+
+.blurIn {
+  opacity: 0; /* Oculta el elemento antes de la animación */
+  animation: blurIn 0.8s ease-out forwards;
+}
+
+.nosotros {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
