@@ -6,7 +6,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<title>Villozam</title>
+	<title>VILLOZAM SA</title>
 
 	<meta name="keywords" content="WebSite Template" />
 	<meta name="description" content="Porto - Multipurpose Website Template" />
@@ -58,7 +58,7 @@
 						<div class="header-row">
 							<div class="header-logo">
 								<a href="index.html">
-									<img alt="Porto" width="240" height="70" src="img/logos/logo-new.png"
+									<img alt="Porto" width="250" height="95" src="img/logos/logo-new.png"
 										style="top: 0px; " />
 								</a>
 							</div>
@@ -86,68 +86,7 @@
 													SERVICIOS
 												</a>
 											</li>
-											<!-- <li class="dropdown dropdown-secondary">
-											<a class="nav-link dropdown-toggle"
-												href="solutions.html">
-												SOLUCIONES
-												<i class="fas fa-chevron-down"></i></a>
-											<ul class="dropdown-menu">
-												<li>
-													<a class="dropdown-item font-weight-normal"
-														href="solutions.html">
-														Overview
-													</a>
-												</li>
-												<li>
-													<a class="dropdown-item font-weight-normal"
-														href="demo-medical-2-departments-detail.html">
-														Cardiology
-													</a>
-												</li>
-												<li>
-													<a class="dropdown-item font-weight-normal"
-														href="demo-medical-2-departments-detail.html">
-														Gastroenterology
-													</a>
-												</li>
-												<li>
-													<a class="dropdown-item font-weight-normal"
-														href="demo-medical-2-departments-detail.html">
-														Pulmonology
-													</a>
-												</li>
-												<li>
-													<a class="dropdown-item font-weight-normal"
-														href="demo-medical-2-departments-detail.html">
-														Dental Care
-													</a>
-												</li>
-												<li>
-													<a class="dropdown-item font-weight-normal"
-														href="demo-medical-2-departments-detail.html">
-														Gynecology
-													</a>
-												</li>
-												<li>
-													<a class="dropdown-item font-weight-normal"
-														href="demo-medical-2-departments-detail.html">
-														Hepatology
-													</a>
-												</li>
-												<li>
-													<a class="dropdown-item font-weight-normal"
-														href="demo-medical-2-departments-detail.html">
-														Gastroenterology
-													</a>
-												</li>
-												<li>
-													<a class="dropdown-item font-weight-normal"
-														href="demo-medical-2-departments-detail.html">
-														Pulmonology
-													</a>
-												</li>
-											</ul>
-										</li> -->
+							
 
 											<li class="dropdown-secondary ">
 												<a class="nav-link active current-page-active" href="contact-us.html">
@@ -195,7 +134,7 @@
 					<div class="col-md-12 align-self-center p-static order-2 text-center">
 						<h1 class="text-9 font-weight-bold">¡Su satisfacción <strong>es nuestro compromiso! </strong>
 						</h1>
-						<span class="sub-title"> Si requiere servicios de emergencia, mantenimiento urgente o
+						<span class="sub-title"> Si requiere servicios de emergencia, mantenimientos o
 							desea programar una visita técnica, no dude en contactarnos. Uno
 							de nuestros especialistas le atenderá con prontitud y
 							profesionalismo, ofreciéndole las mejores soluciones en
@@ -219,7 +158,7 @@
 						capacitados está listo para asesorarle y responder a todas sus
 						consultas.
 					</p>
-					<form class="contact-form" action="php/contact-form.php" method="POST">
+						<form id="contact-form" class="contact-form">
 						<div class="contact-form-success alert alert-success d-none mt-4">
 							<strong>Ok!</strong> Tu mensaje ha sido enviado.
 						</div>
@@ -231,57 +170,57 @@
 
 						<div class="row">
 							<div class="form-group col-lg-6">
-								<label class="form-label mb-1 text-2">Nombre Completo</label>
-								<input type="text" value="" data-msg-required="Please enter your name." maxlength="100"
-									class="form-control text-3 h-auto py-2" name="name" required />
+								<label class="form-label mb-1 text-2">Nombre y Apellido</label>
+								<input type="text" id="name" name="name" value="" maxlength="100" class="form-control text-3 h-auto py-2" required />
 							</div>
 							<div class="form-group col-lg-6">
 								<label class="form-label mb-1 text-2">Correo Electrónico</label>
-								<input type="email" value="" data-msg-required="Please enter your email address."
-									data-msg-email="Please enter a valid email address." maxlength="100"
-									class="form-control text-3 h-auto py-2" name="email" required />
+								<input type="email" id="email" name="email" value="" maxlength="100" class="form-control text-3 h-auto py-2" required />
 							</div>
 						</div>
 						<div class="row">
 							<div class="form-group col">
 								<label class="form-label mb-1 text-2">Asunto</label>
-								<input type="text" value="" data-msg-required="Please enter the subject."
-									maxlength="100" class="form-control text-3 h-auto py-2" name="subject" required />
+								<input type="text" id="subject" name="subject" value="" maxlength="100" class="form-control text-3 h-auto py-2" required />
 							</div>
 						</div>
 						<div class="row">
 							<div class="form-group col">
-								<label class="form-label mb-1 text-2">Mensaje</label>
-								<textarea maxlength="5000" data-msg-required="Please enter your message." rows="8"
-									class="form-control text-3 h-auto py-2" name="message" required></textarea>
+								<label class="form-label mb-1 text-2">Mensaje:</label>
+									<textarea id="message" name="message" maxlength="5000" rows="8" class="form-control text-3 h-auto py-2" required></textarea>
 							</div>
 						</div>
 						<div class="row">
 							<div class="form-group col">
-								<input type="submit" value="Enviar" class="btn btn-primary btn-modern"
-									data-loading-text="Loading..." />
+								<button type="submit" class="btn btn-primary btn-modern">Enviar</button>
 							</div>
 						</div>
 					</form>
 				</div>
+
 				<div class="col-lg-6">
-					<div class="appear-animation" style="animation: fadeIn 0.8s ease-in-out;">
+					<div class="" style="animation: fadeIn 0.8s ease-in-out;">
 						<h4 class="mt-2 mb-1">Nuestra <strong>Oficina</strong></h4>
 						<ul class="list list-icons list-icons-style-2 mt-2">
 							<li>
 								<i class="fas fa-map-marker-alt top-6"></i>
 								<strong class="text-dark">Dirección:</strong> Avenida 113
-								entre Calles 116 y 117, Local #908, Manta – Manabí, Ecuador
+								entre Calles 116 y 117, Local #908, Manta – Ecuador
 							</li>
 							<li>
 								<i class="fab fa-whatsapp top-6"></i>
 								<strong class="text-dark">Teléfono:</strong>
-								<a href="https://wa.me/5930993736222">+593 993736222</a>
+								<a href="https://wa.me/5930993736222">+593 99 3736-222</a>
 							</li>
 							<li>
 								<i class="fas fa-envelope top-6"></i>
-								<strong class="text-dark">Email:</strong>
+								<strong class="text-dark">e-mail:</strong>
 								<a href="mailto:ventas@villozam.com">ventas@villozam.com</a>
+							</li>
+							<li>
+								<i class="fas fa-map-marker-alt top-6"></i>
+								<strong class="text-dark">Ubicación GPS:</strong>
+								<a href="https://g.co/kgs/KJjGfLZ">https://g.co/kgs/KJjGfLZ</a>
 							</li>
 							<li>
 								<i class="fas fa-globe top-6"></i>
@@ -289,20 +228,20 @@
 								<a href="https://www.villozam.com">www.villozam.com</a>
 							</li>
 						</ul>
-					</div>
+					</div>		
 
-					<div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="950">
+					<div class="" data-appear-animation="fadeIn" data-appear-animation-delay="950">
 						<h4 class="pt-5">Horario de <strong>Atención</strong></h4>
 						<ul class="list list-icons list-dark mt-2">
 							<li>
-								<i class="far fa-clock top-6"></i> Lunes a Viernes - 8H00 a 18H00
+								<i class="far fa-clock top-6"></i> lunes a viernes - 08H00 a 18H00
 			
 							</li>
 							<li>
-								<i class="far fa-clock top-6"></i> Sábados - 9H00 a 13H00
-								PM
+								<i class="far fa-clock top-6"></i> sábados - 09H00 a 13H00
+
 							</li>
-							<li><i class="far fa-clock top-6"></i> Domingos - Cerrado</li>
+							<li><i class="far fa-clock top-6"></i> domingos - cerrado</li>
 						</ul>
 					</div>
 
@@ -323,7 +262,7 @@
 					<div class="col text-center">
 						<p class="text-color-light">
 							2009 <span id="current-year"></span> ©
-							<strong class="font-weight-normal">Villozam</strong>
+							<strong class="font-weight-normal">VILLOZAM</strong>
 							- Todos los derechos reservados.
 						</p>
 					</div>
@@ -342,7 +281,7 @@
 	<script src="js/theme.js"></script>
 
 	<!-- Current Page Vendor and Views -->
-	<script src="js/views/view.contact.js"></script>
+	<!-- <script src="js/views/view.contact.js"></script> -->
 	<script src="js/views/view.home.js"></script>
 
 	<!-- Theme Custom -->
@@ -354,100 +293,50 @@
 	<script src="js/examples/examples.particles.js"></script>
 
 
-	<!-- Google Maps -->
-	<script>
-		/* 
-			  Map Markers:
-			  - Get an API Key: https://developers.google.com/maps/documentation/javascript/get-api-key
-			  - Generate Map Id: https://console.cloud.google.com/google/maps-apis/studio/maps
-			  - Use https://www.latlong.net/convert-address-to-lat-long.html to get Latitude and Longitude of a specific address
-			  */
-		((g) => {
-			var h,
-				a,
-				k,
-				p = "The Google Maps JavaScript API",
-				c = "google",
-				l = "importLibrary",
-				q = "__ib__",
-				m = document,
-				b = window;
-			b = b[c] || (b[c] = {});
-			var d = b.maps || (b.maps = {}),
-				r = new Set(),
-				e = new URLSearchParams(),
-				u = () =>
-					h ||
-					(h = new Promise(async (f, n) => {
-						await (a = m.createElement("script"));
-						e.set("libraries", [...r] + "");
-						for (k in g)
-							e.set(
-								k.replace(/[A-Z]/g, (t) => "_" + t[0].toLowerCase()),
-								g[k]
-							);
-						e.set("callback", c + ".maps." + q);
-						a.src = `https://maps.${c}apis.com/maps/api/js?` + e;
-						d[q] = f;
-						a.onerror = () => (h = n(Error(p + " could not load.")));
-						a.nonce = m.querySelector("script[nonce]")?.nonce || "";
-						m.head.append(a);
-					}));
-			d[l]
-				? console.warn(p + " only loads once. Ignoring:", g)
-				: (d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)));
-		})({ key: "YOUR_API_KEY", v: "weekly" });
 
-		async function initMap() {
-			const { Map, InfoWindow } = await google.maps.importLibrary("maps");
-			const { AdvancedMarkerElement, PinElement } =
-				await google.maps.importLibrary("marker");
-			const map = new Map(document.getElementById("googlemaps"), {
-				zoom: 15,
-				center: { lat: -0.9619, lng: -80.7127 }, // Coordenadas de Manta
-				mapId: "YOUR_MAP_API_ID",
-			});
-			const markers = [
-				{
-					position: { lat: -0.9619, lng: -80.7127 },
-					title:
-						"VILLOZAM S.A.<br>Avenida 113 entre Calles 116 y 117, Local #908<br>Manta – Manabí, Ecuador<br>Teléfono: 099 3736 - 222",
-				},
-			];
-
-			const infoWindow = new InfoWindow();
-
-			markers.forEach(({ position, title }, i) => {
-				const pin = new PinElement({
-					background: "#e36159",
-					borderColor: "#e36159",
-					glyphColor: "#FFF",
-				});
-				const marker = new AdvancedMarkerElement({
-					position,
-					map,
-					title: `${title}`,
-					content: pin.element,
-				});
-
-				marker.addListener("click", ({ domEvent, latLng }) => {
-					const { target } = domEvent;
-
-					infoWindow.close();
-					infoWindow.setContent(marker.title);
-					infoWindow.open(marker.map, marker);
-				});
-			});
-		}
-
-		initMap();
-	</script>
 	<script>
 		// Obtener el año actual
 		const currentYear = new Date().getFullYear();
 
 		// Actualizar el contenido del span con el año actual
 		document.getElementById('current-year').textContent = currentYear;
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+	<script>
+		(function() {
+			emailjs.init("YgIupKzU5v5gbdfbg");
+		})();
+
+		document.getElementById('contact-form').addEventListener('submit', function(event) {
+			event.preventDefault();
+			
+			var btn = this.querySelector('button[type="submit"]');
+			var originalText = btn.innerHTML;
+			btn.innerHTML = 'Enviando...';
+			btn.disabled = true;
+			
+			var templateParams = {
+				name: document.getElementById('name').value,
+				email: document.getElementById('email').value,
+				subject: document.getElementById('subject').value,
+				message: document.getElementById('message').value
+			};
+			
+			emailjs.send('service_bv4ns16', 'template_6xs1ivn', templateParams)
+				.then(function(response) {
+					document.querySelector('.contact-form-success').classList.remove('d-none');
+					document.querySelector('.contact-form-error').classList.add('d-none');
+					document.getElementById('contact-form').reset();
+				}, function(error) {
+					document.querySelector('.contact-form-error').classList.remove('d-none');
+					document.querySelector('.mail-error-message').textContent = error.text;
+					document.querySelector('.contact-form-success').classList.add('d-none');
+				})
+				.finally(function() {
+					btn.innerHTML = originalText;
+					btn.disabled = false;
+				});
+		});
 	</script>
 </body>
 
